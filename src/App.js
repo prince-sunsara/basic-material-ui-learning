@@ -1,17 +1,7 @@
 import { Typography, AppBar, Card, CardActions, CardContent, CardMedia, CssBaseline, Grid, Toolbar, Container, Button, ButtonGroup } from "@mui/material";
 import { PhotoCamera } from "@mui/icons-material";
-
-import { makeStyles } from '@mui/styles';
-import { createTheme, ThemeProvider } from '@mui/material/styles';
-
-const theme = createTheme();
-const useStyles = makeStyles({
-  container: {
-    backgroundColor: theme.palette.background.paper,
-    padding: theme.spacing(8, 0, 6)
-  }
-})
-
+import { ThemeProvider } from '@mui/material/styles';
+import { theme, useStyles } from "./styles";
 
 
 function App() {
